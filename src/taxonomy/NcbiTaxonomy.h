@@ -30,7 +30,6 @@ struct TaxonCounts {
     std::vector<TaxID> children; // list of children
 };
 
-
 static const std::map<std::string, int> NcbiRanks = {{ "forma", 1 },
                                                      { "varietas", 2 },
                                                      { "subspecies", 3 },
